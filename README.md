@@ -5,6 +5,8 @@ Posting `multipart/form-data` using the plain `java.net.http.HttpClient` is not 
 This library contains the building blocks to post text, data and files 
 using one [`HttpFormData`](./src/main/java/com/github/fwi/httpformdata/HttpFormData.java)-instance.
 
+For a full-featured HttpClient wrapper, take a look at [Methanol](https://mizosoft.github.io/methanol/) for example.
+
 The base class [`FormDataPart`](./src/main/java/com/github/fwi/httpformdata/FormDataPart.java),
 or any of it's implementations, can be extended to accomodate custom form-data options.
 The class [`FormDataPartBytes`](./src/main/java/com/github/fwi/httpformdata/FormDataPartBytes.java)
