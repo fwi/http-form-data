@@ -13,7 +13,7 @@ uses a slightly less complicated setup as [`PartTwoTest`](./src/test/java/com/gi
 ```bash
 
 # Ensure Java 21 or higher is available
-# Ensure http-form-data lin is available, in lib-project directory http-form-data run:
+# Ensure http-form-data package is available, in lib-project directory http-form-data run:
 mvn clean install
 
 cd http-form-data-demo
