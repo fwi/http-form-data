@@ -1,0 +1,13 @@
+spring.main.banner-mode: 'off'
+
+spring.main.keep-alive: true
+spring.threads.virtual.enabled: true
+
+management.endpoints.web.exposure.include: health, info, metrics, prometheus, httpexchanges
+management.info.build.enabled: true
+
+#  org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+spring.servlet.multipart:
+  max-file-size: 10MB
+  max-request-size: 50MB
+  file-size-threshold: 1MB

@@ -1,0 +1,9 @@
+server.error.include-stacktrace: never
+
+management.server.port: 8081
+
+http-form-data-demo.access.users:
+- username: demo
+  password: omed
+  roles:
+  - user

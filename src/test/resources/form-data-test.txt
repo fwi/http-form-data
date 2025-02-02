@@ -1,0 +1,21 @@
+--boundary
+Content-Disposition: form-data; name="name1"
+Content-Type: text/plain; charset=utf-8
+
+hello
+--boundary
+Content-Disposition: form-data; name="name2"
+Content-Type: text/plain; charset=utf-8
+
+world
+--boundary
+Content-Disposition: form-data; name="name3"; filename="test.txt"
+Content-Type: application/octet-stream
+
+testing123
+--boundary
+Content-Disposition: form-data; name="name4"; filename="form-data-part.dat"
+Content-Type: application/octet-stream
+
+testing part from file here.
+--boundary--
