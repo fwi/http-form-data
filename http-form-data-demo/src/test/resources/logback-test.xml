@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration>
 <configuration>
-    
-    <logger name="com.github.fwi" level="debug"/>
-    <logger name="org.springframework" level="info"/>
+	
+	<logger name="com.github.fwi" level="debug"/>
+	<logger name="org.springframework" level="info"/>
 
-    <logger name="org.springframework.boot.test.context" level="warn"/>
-    <logger name="org.springframework.test.context.support" level="warn"/>
-    <logger name="org.springframework.test.context.web" level="warn"/>
+	<logger name="org.springframework.boot.test.context" level="warn"/>
+	<logger name="org.springframework.test.context.support" level="warn"/>
+	<logger name="org.springframework.test.context.web" level="warn"/>
 
-    <root level="info">
-        <appender-ref ref="CONSOLE"/>
-    </root>
-    <property name="CONSOLE_LOG_PATTERN" value="%clr(%d{HH:mm:ss.SSS}){faint} %clr(%5p) %clr(%-50.50logger{49}){cyan} %clr(:){faint} %m%n%rEx"/>
-    <conversionRule conversionWord="clr" class="org.springframework.boot.logging.logback.ColorConverter"/>
+	<root level="info">
+		<appender-ref ref="CONSOLE"/>
+	</root>
+	<property name="CONSOLE_LOG_PATTERN" value="%clr(%d{HH:mm:ss.SSS}){faint} %clr(%5p) %clr(%-50.50logger{49}){cyan} %clr(:){faint} %m%n%rEx"/>
+	<conversionRule conversionWord="clr" class="org.springframework.boot.logging.logback.ColorConverter"/>
 	<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
 		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
 			<level>trace</level>

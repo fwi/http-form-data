@@ -80,7 +80,7 @@ class PartOneTest {
             .requestFactory(requestFactory)
             .build();
         
-            var vmap = new LinkedMultiValueMap<String, Object>();
+        var vmap = new LinkedMultiValueMap<String, Object>();
         vmap.add("textPartOne", "Hello, world!");
         vmap.add("filePartOne", new PathResource(Paths.get("README.md")));
         
